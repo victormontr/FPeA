@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual env
+FPeA/
+.venv/
+
+# VSCode
+.vscode/
+
+# Dados sensíveis (exceto dados/ versionados)
+*.xlsx
+*.csv
+*.pbix
+*.pdf
+
+# EXCEÇÕES: permitir dados versionados
+!dados/
+!dados/*.csv
+!dados/README.md
+!dados/.gitkeep
