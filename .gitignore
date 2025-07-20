@@ -9,18 +9,3 @@ FPeA/
 
 # VSCode
 .vscode/
-
-# Dados sensíveis (exceto dados/ versionados)
-*.csv
-*.pbix
-*.pdf
-
-# EXCEÇÕES: permitir dados versionados
-!dados/
-<<<<<<< HEAD
-!dados/*.csv
-!dados/README.md
-!dados/.gitkeep
-=======
-!dados/*.csv
->>>>>>> e2d01c9 (Análise Orçamentária no Excel)
