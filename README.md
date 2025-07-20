@@ -47,3 +47,28 @@ Este módulo reproduz a análise orçamentária utilizando recursos nativos do M
     - Destaque de desvios através do heatmap.
 
 A planilha simula o ambiente real de análise orçamentária, com foco em clareza visual, interatividade e aplicação de boas práticas de estruturação e visualização em Excel.
+
+### 📈 Módulo Power BI — Dashboard Orçamentário Interativo
+O arquivo dashboard_orcamentario.pbix apresenta um painel dinâmico e executivo para análise orçamentária anual, com base em dados estruturados no banco de dados SQL Server.
+
+As visualizações são alimentadas diretamente da tabela Orcamento, populada via script Python a partir do arquivo CSV fonte utilizado em outras etapas. O código python utilizado não será disponibilizado.
+
+🔍 O dashboard inclui:
+
+- Comparação entre Orçado, Realizado e Forecast por departamento;
+- Evolução mensal das métricas por área (gráficos de linha);
+- Indicadores consolidados por categoria;
+- Segmentações por departamento e mês para análise interativa.
+
+Essa estrutura demonstra a integração entre SQL Server e Power BI para análise de dados financeiros no contexto de FP&A.
+
+Este projeto foi desenvolvido com o objetivo de integrar e aplicar, de forma prática, os principais conhecimentos exigidos na área de FP&A — combinando ferramentas técnicas como Python, Excel, SQL Server e Power BI em um fluxo de trabalho completo de análise orçamentária.
+
+Ao utilizar dados simulados e focar em clareza visual, automação e análise crítica, o repositório serve como uma vitrine das competências essenciais para a função de analista financeiro com perfil técnico.
+
+### 👤 Autor
+
+- Victor Monteiro
+- Estudante de Controladoria e Finanças na UFMG.
+- 💼 LinkedIn: linkedin.com/in/victormontr
+- 📂 Projeto pessoal para fins de aprendizado e portfólio.
