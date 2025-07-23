@@ -4,29 +4,38 @@ Este repositório tem como objetivo apresentar de forma prática e aplicada as p
 
 A estrutura modular do repositório inclui códigos em Python, dashboards em Excel e Power BI, além de consultas em SQL, permitindo uma demonstração completa e integrada de habilidades técnicas e analíticas voltadas à área de finanças corporativas.
 
-### 🐍 Módulo Python — Análise FP&A com Dados Fictícios
+## 🐍 Módulo Python — Análise FP&A com Dados Fictícios
 
-A parte em Python contém:
+Este módulo implementa uma rotina completa de análise orçamentária (FP&A) utilizando dados simulados e ferramentas modernas do ecossistema Python.
 
-📁 scripts/: geração automatizada de dados orçamentários com orçado, realizado e forecast por mês e departamento.
+### Estrutura de Diretórios
 
-📁 dados/: arquivos .csv gerados, representando a base da análise (Comum para outras partes do repositório).
+- **scripts/**  
+  Scripts para geração automatizada de bases orçamentárias simuladas, incluindo valores de orçado, realizado e forecast por mês e departamento.
 
-📁 notebooks/: notebook interativo com a análise orçamentária.
+- **dados/**  
+  Arquivos `.csv` gerados e utilizados na análise, organizados para reutilização em diferentes etapas e notebooks.
 
-Principais análises realizadas:
+- **notebooks/**  
+  Notebook interativo principal com todo o fluxo de análise orçamentária, explorações e visualizações.
 
-- Comparação Orçado vs Realizado vs Forecast ao longo dos meses;
+### Principais Análises Realizadas
 
-- Cálculo de desvios absolutos e percentuais;
+- Comparativo Orçado vs. Realizado vs. Forecast por mês e por departamento
+- Cálculo de desvios absolutos e percentuais
+- Identificação das áreas/departamentos com maior variação orçamentária
+- Visualizações interativas: gráficos de barras, linhas e heatmaps para facilitar o diagnóstico
 
-- Identificação de áreas com maior variação orçamentária;
+### Tecnologias e Boas Práticas
 
-- Visualização com gráficos e heatmap.
+- Utilização intensiva de `pandas` para manipulação e análise dos dados
+- Visualizações avançadas com `matplotlib` e `seaborn`, com atenção à acessibilidade das paletas de cores
+- Estrutura modular e comentários in-code para facilitar a compreensão e manutenção
+- Garantia de reprodutibilidade por meio de ambiente virtual Python (`FPeA`) e controle de dependências
+- Organização do código e dos dados para fácil adaptação a outros projetos ou bases reais
 
-Os notebooks utilizam pandas, matplotlib, seaborn e seguem boas práticas de estrutura, formatação e reprodutibilidade com ambiente virtual Python (venv).
 
-### 📊 Módulo Excel — Análise Orçamentária com Recursos Nativos
+## 📊 Módulo Excel — Análise Orçamentária com Recursos Nativos
 
 Este módulo reproduz a análise orçamentária utilizando recursos nativos do Microsoft Excel, simulando o trabalho cotidiano de um analista de FP&A com ferramentas amplamente adotadas no ambiente corporativo.
 
@@ -48,7 +57,7 @@ Este módulo reproduz a análise orçamentária utilizando recursos nativos do M
 
 A planilha simula o ambiente real de análise orçamentária, com foco em clareza visual, interatividade e aplicação de boas práticas de estruturação e visualização em Excel.
 
-### 📈 Módulo Power BI — Dashboard Orçamentário Interativo
+## 📈 Módulo Power BI — Dashboard Orçamentário Interativo
 O arquivo dashboard_orcamentario.pbix apresenta um painel dinâmico e executivo para análise orçamentária anual, com base em dados estruturados no banco de dados SQL Server.
 
 As visualizações são alimentadas diretamente da tabela Orcamento, populada via script Python a partir do arquivo CSV fonte utilizado em outras etapas. O código python utilizado não será disponibilizado.
@@ -66,7 +75,7 @@ Este projeto foi desenvolvido com o objetivo de integrar e aplicar, de forma pr�
 
 Ao utilizar dados simulados e focar em clareza visual, automação e análise crítica, o repositório serve como uma vitrine das competências essenciais para a função de analista financeiro com perfil técnico.
 
-### 👤 Autor
+## 👤 Autor
 
 - Victor Monteiro
 - Estudante de Controladoria e Finanças na UFMG.
