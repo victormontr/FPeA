@@ -1,8 +1,8 @@
-## 🧾 Projeto: Análise Orçamentária e Forecast — FP&A
+# 🧾 Projeto: Análise Orçamentária e Forecast — FP&A
 
 Este repositório tem como objetivo apresentar de forma prática e aplicada as principais atividades de um analista de FP&A (Financial Planning & Analysis), por meio de um projeto fictício com dados simulados e técnicas reais de análise orçamentária, previsão e controle de desempenho.
 
-A estrutura modular do repositório inclui códigos em Python, dashboards em Excel e Power BI, além de consultas em SQL, permitindo uma demonstração completa e integrada de habilidades técnicas e analíticas voltadas à área de finanças corporativas.
+A estrutura modular do repositório inclui códigos em Python, dashboards em Excel e Power BI, permitindo uma demonstração completa e integrada de habilidades técnicas e analíticas voltadas à área de finanças corporativas.
 
 ## 🐍 Módulo Python — Análise FP&A com Dados Fictícios
 
